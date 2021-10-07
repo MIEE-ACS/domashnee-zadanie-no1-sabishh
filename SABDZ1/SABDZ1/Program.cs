@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace дз1сабина1
+namespace SABDZ1
 {
     class Program
     {
@@ -35,7 +35,7 @@ namespace дз1сабина1
             }
             int AC = Math.Abs(C - A);
             int BC = Math.Abs(C - B);
-            double answer = AC*BC;
+            double answer = AC * BC;
             Console.WriteLine($"произведение AC на BC = :{string.Format("{0:0.000}", answer)}");
         }
     }
